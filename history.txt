@@ -1,0 +1,37 @@
+
+  509  mkdir test_batch
+  510  cd test_batch
+  511  pwd
+  512  open .
+  513  touch test.txt
+  514  open .
+  515  echo 'test' > test.txt
+  516  cat test.txt
+  517  pwd
+  518  ls
+  519  git init
+  520  clear
+  521  ls -a
+  522  rm -rf .git
+  523  clear
+  524  ls
+  525  ls -a
+  526  git init
+  527  ls -a
+  528  git add .
+  529  git commit -m "initial commit; asdfasdf directory and created a test.txt file"
+  530  clear
+  531  ls
+  532  git log
+  533  git remote add github git@github.com:pvtech/batch2_testgit.git
+  534  git push github master
+  535  celar
+  536  clear
+  537  pwd
+  538  ls
+  539  cd ..
+  540  pwd
+  541  git clone git@github.com:pvtech/batch2_testgit.git
+  542  cd batch2_testgit
+  543  ls
+  544  history > history.txt
